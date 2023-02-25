@@ -81,8 +81,27 @@ nav a:hover{
   margin: none;
 }
 
+div a{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+div a:hover{
+  background-color: bisque;
+  color: #990901;
+  align-items: center;
+  justify-content: center;
+}
+
 .imgs{
-  width: 200px;
+  width: 150px;
   height: 150px;
 }
 .foot{
